@@ -63,4 +63,4 @@ python -m pip install -r requirements.txt
 python -m jupyter lab notebooks/regression.ipynb
 ```
 
-Выберите созданное окружение, затем **Restart Kernel → Run All**. Оставьте `VARIANT=3`, `MODE="full"`, `EXPORT_FINAL=False`. Корень с `course_support.py` и `data/` находится автоматически. Общий зафиксированный набор зависимостей и результаты повторного запуска — в [отчёте проверки](../VERIFICATION.md).
+Выберите созданное окружение, затем **Restart Kernel → Run All**. Оставьте `VARIANT=3`, `MODE="full"`, `EXPORT_FINAL=False`. Корень с `course_support.py` и `data/` находится автоматически. Общий зафиксированный набор зависимостей — в [requirements-lock.txt](../requirements-lock.txt).
